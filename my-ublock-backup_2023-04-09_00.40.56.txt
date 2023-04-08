@@ -1,0 +1,53 @@
+{
+  "timeStamp": 1680993656953,
+  "version": "1.48.4",
+  "userSettings": {
+    "externalLists": "https://filters.adtidy.org/extension/ublock/filters/3.txt\nhttps://raw.githubusercontent.com/czaczar/karachan-filters/master/filters.txt\nhttps://www.youtube.com/embed/j0aAiKSUzJM?autoplay=1",
+    "importedLists": [
+      "https://filters.adtidy.org/extension/ublock/filters/3.txt",
+      "https://raw.githubusercontent.com/czaczar/karachan-filters/master/filters.txt",
+      "https://www.youtube.com/embed/j0aAiKSUzJM?autoplay=1"
+    ],
+    "popupPanelSections": 15
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "adguard-generic",
+    "adguard-mobile",
+    "easylist",
+    "adguard-spyware-url",
+    "block-lan",
+    "easyprivacy",
+    "urlhaus-1",
+    "curben-phishing",
+    "curben-pup",
+    "adguard-annoyance",
+    "fanboy-annoyance",
+    "ublock-annoyances",
+    "plowe-0",
+    "https://www.youtube.com/embed/j0aAiKSUzJM?autoplay=1",
+    "https://filters.adtidy.org/extension/ublock/filters/3.txt",
+    "https://raw.githubusercontent.com/czaczar/karachan-filters/master/filters.txt"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "karachan.org###jesli-zablokujesz-tego-diva-ukraina-odniesie-zwyciestwo\nchanwiki.com##body:after\nchanwiki.com##+js(aopr, rzeczy)\nchanwiki.com##+js(aopw, HTMLImageElement.prototype.src)\n! Title: karachan-filters\n! Description: A comprehensive set of filters for uBlock Origin that allows you to access polish imageboards such as Karachan and other related sites.\n! Homepage: https://github.com/czaczar/karachan-filters\n! Expires: 3 days\n\n! karachan.org\n||freshscat.com$domain=karachan.org\n||youtube.com/embed/j0aAiKSUzJM$domain=karachan.org\n||koronawirus.netlify.com$domain=karachan.org\n||karachan.org/bolbutthurtu.webm\n||karachan.org/wykop/src/1577811355539470976.webm\n||karachan.org/wykop/src/1584127626835644712.mp4\n||karachan.org/jannn.webm\n||karachan.org/Bursztynek.mp3\n||karachan.org/b/src/rakusptakus2.jpg\nkarachan.org###zjadam_srake\nkarachan.org###czaj\nkarachan.org###kurwy\nkarachan.org##body>div:first-child\nkarachan.org###delform:style(background-image:none !important)\nkarachan.org##.board:style(background-image:none !important)\n!#if cap_html_filtering\nkarachan.org##^script:has-text(localStorage.xD)\nkarachan.org##^script:has-text(_0x5215)\n!#endif\n!#if !cap_html_filtering\nkarachan.org##+js(acis, Math.sin, localStorage.xD)\nkarachan.org##+js(acis, Math.random, _0x5215)\n!#endif\n\n! wilchan.org\n||wilchan.org/js/smietnik.js\n||wilchan.org/js/openings*.js\n||wilchan.org/js/wilno2.js\n\n! chanwiki.com\nchanwiki.com##body:after\nchanwiki.com##+js(aopw, HTMLImageElement.prototype.src)\nkarachan.org/js/htmlshiv.js$script,1p\n"
+}
